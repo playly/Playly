@@ -24,11 +24,14 @@
 }
 .main-container_heading {
   font-size: 30px;
-  margin: 40px 0;
+  padding: 40px 0;
 }
 .main-container_image {
   border-radius: 5px;
   box-shadow: 0 5px 50px rgba(86, 50, 85, 0.7);
+}
+.main-container_cta {
+  padding: 40px 0;
 }
 
 .footer {
@@ -39,12 +42,22 @@
   padding: 30px 0;
 }
 
-button {
-  padding: 12px;
-  border: none;
-  background-color: #333;
-  border-radius: 3px;
+.btn {
+  display: inline-block;
+  text-decoration: none;
+  font-weight: bold;
+  min-width: 140px;
+  padding: 15px 20px;
+  text-align: center;
   color: rgba(255, 255, 255, 0.8);
+  border: none;
+  border-radius: 3px;
+  background-color: #443b55;
+  fill: #fff;
+}
+.btn_bottom-line {
+  font-size: 13px;
+  margin-top: 10px;
 }
 
 html {
