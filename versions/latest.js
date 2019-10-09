@@ -1,1 +1,1 @@
-window.latestVersion = 1.3
+window.latestVersion=1.4
